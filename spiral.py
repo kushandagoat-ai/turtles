@@ -1,0 +1,11 @@
+import turtle
+my_pen = turtle.Screen()
+my_pen.bgcolor("Red")
+my_pn = turtle.Turtle()
+size = 0
+while True:
+    for i in range(4):
+        my_pn.fd(size + 1)
+        my_pn.left(90)
+        size = size -5
+    size = size +1
